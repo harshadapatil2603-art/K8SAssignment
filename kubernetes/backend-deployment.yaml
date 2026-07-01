@@ -20,7 +20,7 @@ spec:
         - containerPort: 5000
         env:
         - name: MONGO_URI
-          value: "YOUR_MONGODB_URI"
+          value: "mongodb+srv://dummy:2630@cluster0.dyd41ym.mongodb.net/?appName=Cluster0"
         - name: DB_NAME
           value: "todoDB"
         - name: COLLECTION
